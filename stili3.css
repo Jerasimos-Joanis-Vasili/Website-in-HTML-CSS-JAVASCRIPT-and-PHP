@@ -1,0 +1,53 @@
+body {
+      background-image: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+}
+
+#p {
+	padding:0; 
+	margin:0;
+	font-family:"Times New Roman", serif;
+	letter-spacing: 1px;
+	background-color:#f1f1f1;
+	margin-bottom:5px;
+	margin-top:5px;
+}
+
+#legend {
+	margin-top:10px;
+	border:1px solid #444;
+	padding:5px;
+	margin-bottom:15px;
+	background-color:#f1f1f1;
+}
+
+#fieldset {
+	width:300px;
+	margin-left:20px;
+	border:1px solid #444;
+	padding:5px;
+}
+
+#a {  
+    float: left; 
+    width: 33.3%; 
+	font-size: 17.5px;
+    text-align:left;
+    color:black;
+    text-decoration: none;
+}
+#b {
+    float: left; 
+    width:33.3%;
+	font-size: 17.5px;
+    text-align:center;
+    color:black;
+    text-decoration:none;
+}
+#c {
+    float:left; 
+    width:33.3%; 
+	font-size: 17.5px;
+    text-align:right;
+    color:black;
+    text-decoration: none;
+}

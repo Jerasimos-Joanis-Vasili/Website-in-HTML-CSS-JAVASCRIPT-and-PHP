@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>TechGuy E-Shop</title>
+<link rel="stylesheet" href= "stili.css" type="text/css">
+</head>
+<body>
+<a href="home.htm">
+<center> <img src="logo12.png"/> </center>
+</a>
+<img src="foto3.jpg" height="100%" width="100%"/>
+<hr/>
+<a href="home.htm"  id="a"> <b> Home </b> </a> 
+<a href="about.htm" id="b"> <b> About Us </b> </a>
+<a href="contact.htm" id="c"> <b> Contact </b> </a> 
+<hr/>
+<center>
+<video controls autoplay muted > 
+<source src="intro1.mp4" type="video/mp4"> </center>
+</video> <br>
+  <center>
+  <div class="row">
+  <div class="column">
+    <img src="note10plus.jpg" height="300px" width="200px" /> 
+    <p> <b> Samsung Galaxy Note 10 Plus 12/256 GB </b> </p> 
+    <p> <b> Price 760$ </b> </p>
+  </div>
+  <div class="column">
+    <img src="nokia9.jpg" height="300px" width="200px"/>
+    <p> <b> Nokia 9 Pureview 6/128 GB </b> </p>
+    <p> <b> Price 410$ </b> </p>
+  </div> 
+  <div class="column">
+    <img src="11 pro max.jpg" height="300px" width="200px"/>
+    <p> <b> Apple Iphone 11 Pro Max 4/128 GB </b> </p> 
+    <p> <b> Price 870$ </b> </p>
+  </div>  
+  <div class="column">
+    <img src="oneplus.jpg" height="300px" width="200px"/>
+    <p> <b> OnePlus 7T Pro 12/256 GB </b> </p>
+    <p> <b> Price 660$ </b> </p>
+   </div>
+   </div>
+   <div class="row">  
+   <div class="column">
+    <img src="oppo.jpg" height="300px" width="200px"/>
+    <p> <b> Oppo Reno 10x Zoom 8/256 GB </b> </p>
+    <p> <b> Price 460$ </b> </p>
+</div>  
+   <div class="column">
+    <img src="asus2.jpg" height="300px" width="200px"/>
+    <p> <b> Asus Rog Phone 2 12/512 GB </b> </p>
+    <p> <b> Price 890$ </b> </p>
+</div> 
+<div class="column">
+    <img src="p30pro.jpg" height="300px" width="200px"/>
+    <p> <b> Huawei P30 Pro 8/128 GB </b> </p>
+    <p> <b> Price 580$ </b> </p>
+</div> 
+<div class="column">
+    <img src="minote10pro.jpg" height="300px" width="200px"/>
+    <p> <b> Xiaomi Mi Note 10 Pro 8/256 GB </b> </p>
+    <p> <b> Price 520$ </b> </p>
+</div> </div> </center>
+<hr/>
+<p id="e"> &copy;
+<a href="mailto:xhonivasili14@gmail.com" id="f"> Copyright, TechGuy E-Shop 2021, All rights reserved. </a> </p> 
+<button class="open-button" onclick="openForm()"> <b> Sign in to Newsletter </b> </button>
+
+<div class="form-popup" id="myForm">
+  <form action="contactform.php" class="form-container">
+    <h1>Login</h1>
+
+    <label for="email"><b>Email</b></label>
+    <input type="text" placeholder="Enter Email" name="email" required>
+
+    <label for="psw"><b>Password</b></label>
+    <input type="password" placeholder="Enter Password" name="psw" required>
+
+    <button type="submit" class="btn">Login</button>
+    <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
+  </form>
+</div>
+
+<script>
+function openForm() {
+  document.getElementById("myForm").style.display = "block";
+}
+
+function closeForm() {
+  document.getElementById("myForm").style.display = "none";
+}
+</script>
+</body> </html>
